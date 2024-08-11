@@ -1,6 +1,6 @@
 spring:
   config:
-    import: optional:configserver:http://localhost:8888/gatewaySanteVista
+    import: optional:configserver:http://localhost:8888/gateway-service
   cloud:
     config:
       profile: dev
